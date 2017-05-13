@@ -11,18 +11,19 @@ article, aside, footer, header, main, nav, section {
 }
 
 .banner {
+	font-family: 'Baloo', cursive;
 	background-color: #6689E0;
 	color: white;
 	padding: 10px 20px;
-	font: 20px Courier New;
+	font: 30px Baloo;
 }
 
 body {
 	width: 1366px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ffffff
-}	
+	background: url(assets/geometry2.png) repeat 0 0;
+	}	
 main {
 	width: 1000px;
 	margin-left: auto;
@@ -48,8 +49,9 @@ li a {
 	color: white;
 } 
 h2 {
+	font-family: 'Baloo', cursive;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	font: serif;
+	font: 20px Baloo;
 	margin-top: 50px;
 	font-size: 30px 
 }
