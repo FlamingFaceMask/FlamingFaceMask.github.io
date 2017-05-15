@@ -1,0 +1,97 @@
+@charset "UTF-8"
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+	font-family: 'Baloo', cursive;
+	background-color: #6689E0;
+	color: white;
+	padding: 10px 20px;
+	font: 30px Baloo;
+}
+
+body {
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(assets/geometry2.png) repeat 0 0;
+	}	
+main {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav {
+	background-color: #335FCD;
+	padding: 5px;
+}
+
+.flamegradient {
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(orange, Darkred); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, Darkred); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, Darkred); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, Darkred); /* Standard syntax */
+}
+
+.left {
+	width: 600px;	
+	font: 20px Arial;
+	color: gray;
+}
+.right {
+	width: 600px;                                                                 
+	font: 20px Arial;
+	color: gray;
+position: relative;
+}
+
+li a {
+	color: white;
+} 
+h2 {
+	font-family: 'Baloo', cursive;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font: 20px Baloo;
+	margin-top: 50px;
+	font-size: 30px 
+}
+
+.absolute {
+	position: absolute;
+}
+
+title {
+	color: white
+}
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+h1 {
+	text-align: center;
+	color: white
+}
+
+p {
+	text-align: center;
+	font: 20px Arial;
+	color: gray;
+}
+
+.youtube {
+	margin-top: 50px;
+	margin-left: 80px;
+	display: block;
+}
