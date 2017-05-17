@@ -32,14 +32,11 @@ main {
 nav {
 	background-color: #335FCD;
 	padding: 5px;
+	font-family: 'Exo 2'
 }
 
 .flamegradient {
-	background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(orange, Darkred); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(orange, Darkred); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(orange, Darkred); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(orange, Darkred); /* Standard syntax */
+	background-color: #F67E3E; /* For browsers that do not support gradients */
 }
 
 .left {
@@ -88,6 +85,7 @@ p {
 	text-align: center;
 	font: 20px Arial;
 	color: gray;
+	background-color: #f2f2f2;
 }
 
 .youtube {
