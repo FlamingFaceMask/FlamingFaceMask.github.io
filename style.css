@@ -28,12 +28,13 @@ main {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #f2f2f2;
 }
 nav {
 	background-color: #335FCD;
 	padding: 5px;
 	font-family: 'Exo 2'
-}
+}	
 
 .flamegradient {
 	background-color: #F67E3E; /* For browsers that do not support gradients */
@@ -50,7 +51,10 @@ nav {
 	color: gray;
 position: relative;
 }
-
+.content {
+	background-color: f2f2f2;
+	
+}
 li a {
 	color: white;
 } 
@@ -85,7 +89,6 @@ p {
 	text-align: center;
 	font: 20px Arial;
 	color: gray;
-	background-color: #f2f2f2;
 }
 
 .youtube {
